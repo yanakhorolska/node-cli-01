@@ -1,0 +1,28 @@
+{
+  "name": "cli-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanakhorolska/node-cli-01.git"
+  },
+  "author": "'YANA' <example@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanakhorolska/node-cli-01/issues"
+  },
+  "homepage": "https://github.com/yanakhorolska/node-cli-01#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
