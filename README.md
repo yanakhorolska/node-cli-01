@@ -15,4 +15,4 @@ https://monosnap.com/file/qecWpd0PVeBk1W4XztIXJM21UY0jAr<br/>
 
 delete contact<br/>
 node index.js --action="remove" --id=3<br/>
-https://monosnap.com/file/qacl9HDvP2AW6L5lFGmlZ1Cy3V1Adu<br/>
+https://monosnap.com/file/E8fWOvRmzihtQzVQxVuoZFZoSBKkAe<br/>
