@@ -16,7 +16,7 @@ const argv = program.opts();
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
-      const allContacts = await contacts.listContacts();
+      const allContacts = await contacts.getContacts();
       console.table(allContacts);
       break;
 
@@ -31,8 +31,8 @@ async function invokeAction({ action, id, name, email, phone }) {
       break;
 
     case "remove":
-      const deletedContact = await contacts.removeContact(id);
-      console.log("this contact was deleted: ", deletedContact);
+      await contacts.removeContact(id);
+      console.log(`Contact with id ${id} was deleted`);
       break;
 
     default:
